@@ -25,7 +25,7 @@ header {
 
 /* Sidebar styles */
 .sidebar {
-    min-height: 100vh;
+    min-height: 57vh;
     padding: 1rem;
     border-right: 1px solid #ddd;
     border-radius: 10px;
@@ -35,13 +35,16 @@ header {
     color: #007bff;
     font-weight: bold;
     margin: 0.5rem 0;
+    border-radius: 30px;
 }
 
 .sidebar .nav-link.active {
     color: white;
     background-color: #007bff;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -53,7 +56,7 @@ header {
 main {
     padding: 2rem;
     background-color: #f9f9f9;
-    border-radius: 10px;
+    border-radius: 35px;
 }
 
 main h2 {
@@ -74,12 +77,13 @@ main ul li {
 
 /* Footer styles */
 footer {
-    background-color: #9216b1;
+    background-color: #6e78ff;
     color: white;
     padding: 1rem;
     position: relative;
     bottom: 0;
     width: 100%;
+    border-radius: 35px;
 }
 
 /* Responsive design for smaller screens */
@@ -95,4 +99,23 @@ footer {
     main {
         padding: 1rem;
     }
+}
+
+
+.image1 {
+    height: 100px;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1{
+    border-radius: 35px;
+}
+
+#creation {
+    background-image: image-set(https://dev.ge/storage/images/29/92/56/66/derived/63007689aad7bb309906768f73a9f592.jpg);
 }
