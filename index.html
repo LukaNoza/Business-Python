@@ -1,137 +1,102 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>პროგრამირების ენები და ბიზნესი: Python</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid">
-        <!-- Header -->
-        <header class=" header1 text-white text-center py-3">
-            <img class="image1" src="https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png" alt="">
-            <h1>პროგრამირების ენები და ბიზნესი: Python</h1>
-            <img class="image1" src="https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png" alt="">
-        </header>
+    
+    <div style="color: aquamarine;" class="content-sidebar-wrap">
 
-        <div class="row">
-            <!-- Sidebar -->
-            <nav class=" nav1 col-md-3 col-lg-2 d-md-block bg-light sidebar position-fixed">
-                <div class="position-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active border border-info-subtle" href="#creation">Python-ის შექმნის ისტორია</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-info-subtle" href="#impact">Python-ის გავლენა მსოფლიოზე</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-info-subtle" href="#collaborations">Python-ის თანამშრომლობა სხვა კომპანიებთან</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-info-subtle" href="#policies">Python-ის მიმწოდებლის პოლიტიკა</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border border-info-subtle" href="#sources">წყაროები</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="h1">
 
-            <!-- Main Content -->
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <section id="creation" class="py-4">
-                    <h2>Python-ის შექმნის ისტორია</h2>
-                    <p>Python-ის პროგრამირების ენა შექმნილია 1991 წელს გიდო ვან როსუმის მიერ. მისი მთავარი მიზანი იყო შეექმნა მარტივი, მკაფიო და ადვილად გასაგები პროგრამირების ენა, რომელიც მომხმარებელს საშუალებას მისცემდა სწრაფად დაეწერა კოდი. Python-ის სახელწოდება მომდინარეობს ცნობილი ბრიტანული კომედიური შოუსგან “Monty Python”.</p>
-                    <p>Python-ი შეიქმნა, როგორც ალტერნატივა სხვა ენებისათვის, რომლებიც რთული სინტაქსით გამოირჩეოდნენ. მისი ძირითადი პრინციპებია სიმარტივე, კოდის სისუფთავე და მაღალი ეფექტურობა. ენის პირველი ვერსია იყენებდა მოდულურ არქიტექტურას, რაც შემდგომში მნიშვნელოვან გავლენას ახდენდა ბიზნესისა და ტექნოლოგიების დარგებზე.</p>
-                </section>
-
-                <section id="impact" class="py-4">
-                    <h2>Python-ის გავლენა მსოფლიოზე</h2>
-                    <p>Python-ის პოპულარობა სწრაფად გაიზარდა, განსაკუთრებით იმ გარემოში, სადაც მონაცემთა ანალიზი, ხელოვნური ინტელექტი და ვებ-დეველოპმენტი წამყვან როლს ასრულებენ. მისი გავლენა ბიზნესსა და ტექნოლოგიებზე განსაკუთრებით იმაში გამოიხატება, რომ Python გახდა ძირითადი ინსტრუმენტი შემდეგი დარგების განვითარებაში:</p>
-                    <ul>
-                        <li><strong>მონაცემთა მეცნიერება და ანალიზი:</strong> Python-ის ბიბლიოთეკები, როგორიცაა Pandas, NumPy და SciPy, ფართოდ გამოიყენება მონაცემთა ანალიზისთვის.</li>
-                        <li><strong>ხელოვნური ინტელექტი და მანქანური სწავლება:</strong> TensorFlow, PyTorch და Keras Python-ის ბიბლიოთეკებია, რომლებიც გამოიყენება ნერვული ქსელებისა და AI მოდელების დასაწერად.</li>
-                        <li><strong>ვებ-დეველოპმენტი:</strong> Django და Flask - Python-ის მძლავრი ვებ-ფრეიმვორქები, რომლებიც გამოიყენება ვებსაიტების და ვებაპლიკაციების შესაქმნელად.</li>
-                        <li><strong>ავტომატიზაცია:</strong> Python ხშირად გამოიყენება რეპეტიტიული პროცესების ავტომატიზაციისთვის, რაც ზრდის ბიზნესის ეფექტურობას.</li>
-                    </ul>
-                </section>
-
-                <section id="collaborations" class="py-4">
-                    <h2>Python-ის თანამშრომლობა სხვა კომპანიებთან</h2>
-                    <p>Python-ის განვითარებაში მრავალი გლობალური კომპანიაა ჩართული. მისი თანამშრომლობის მაგალითები მოცემულია წლების მიხედვით:</p>
-                    <ul>
-                        <li><strong>Google (2000-დან დღემდე)</strong> Google-მ 2000-იან წლებში დაიწყო Python-ის გამოყენება თავის სერვისებში. Python-ის გამოყენება კომპანია მოიცავს მონაცემთა დამუშავებას, ავტომატიზაციას და ვებსერვისების განვითარებას. განსაკუთრებით აღსანიშნავია მისი როლი Google App Engine-ის შექმნაში.</li>
-                        <li><strong>Facebook (2005-დან დღემდე)</strong> Facebook იყენებს Python-ს შიდა ინსტრუმენტებისა და მონაცემთა ანალიტიკური მოდელების შესაქმნელად. მისი გამოყენება მოიცავს ინფრასტრუქტურის მართვას და მონაცემთა დამუშავების ავტომატიზაციას, რაც კომპანიას საშუალებას აძლევს, ოპტიმიზებული მომსახურება შესთავაზოს მომხმარებლებს.</li>
-                        <li><strong>Netflix (2010-დან დღემდე)</strong> Netflix იყენებს Python-ს კონტენტის რეკომენდაციის სისტემებისთვის, ავტომატიზაციის ინსტრუმენტების დასამუშავებლად და ქლაუდ ინფრასტრუქტურის ოპტიმიზაციისთვის. კომპანია Python-ს იყენებს Chaos Monkey-ისთვის, რომელიც ხელს უწყობს სისტემის გამძლეობის ტესტირებას.</li>
-                        <li><strong>Microsoft (2015-დან დღემდე)</strong> Python ინტეგრირებულია Microsoft Azure-ის პლატფორმაში. მისი გამოყენება ამარტივებს მანქანური სწავლებისა და ხელოვნური ინტელექტის მოდელების შექმნას. 2018 წელს Microsoft-მა დაამატა Python-ის მხარდაჭერა Visual Studio Code-ში, რაც პროგრამისტებისთვის უფრო მარტივი სამუშაო გარემოს შექმნის საშუალებას იძლევა.</li>
-                        <li><strong>Dropbox (2006-დან დღემდე)</strong> Dropbox-ის დამფუძნებელმა, დრუ ჰიუსტონმა, Python აირჩია, როგორც პლატფორმის ძირითადი ენა. Dropbox იყენებს Python-ს ფაილების სინქრონიზაციის სისტემების განვითარებისთვის, რაც მას ხელს უწყობს მომხმარებელთა მონაცემების უსაფრთხო და მარტივად მართვაში.</li>
-                        <li><strong>Instagram (2011-დან დღემდე)</strong> Instagram მთლიანად მუშაობს Python-ზე. ენა გამოიყენება როგორც პლატფორმის სერვერ-საიდის განვითარებისათვის, ასევე მასშტაბირებადი ინფრასტრუქტურის შესაქმნელად, რაც მომხმარებელთა მზარდ რაოდენობას ემსახურება.</li>
-                        <li><strong>Spotify (2013-დან დღემდე)</strong> Spotify იყენებს Python-ს რეკომენდაციის ალგორითმების დასამუშავებლად. მისი დახმარებით, კომპანია ახდენს მომხმარებლის მუსიკალური ჩვევების ანალიზს და ქმნის პერსონალიზებულ რეკომენდაციებს.</li>
-                        <li><strong>NASA (1997-დან დღემდე)</strong> NASA იყენებს Python-ს მონაცემთა ვიზუალიზაციისთვის და მეცნიერებათა კვლევების დასამუშავებლად. Python-ის მოქნილობა მას იდეალურ იარაღად აქცევს კოსმოსური მისიის კრიტიკული მონაცემების ანალიზისთვის.</li>
-                        <li><strong>Reddit (2005-დან დღემდე)</strong> Reddit-ის პლატფორმა თავდაპირველად Lisp-ზე იყო შექმნილი, მაგრამ მოგვიანებით გადაკეთდა Python-ზე, რაც კომპანიის დეველოპერებს უფრო სწრაფი განახლებების და ფუნქციონალის დამატების შესაძლებლობას აძლევს.</li>
-                    </ul>
-                </section>
-
-                <section id="policies" class="py-4">
-                    <h2>Python-ის მიმწოდებლის პოლიტიკა</h2>
-                    <p>Python-ის ღია კოდის ფილოსოფია მჭიდროდ არის დაკავშირებული ეთიკურ პრინციპებთან. მისი პროექტის მართვა ხდება Python Software Foundation-ის (PSF) მიერ, რომელიც შეესაბამება შემდეგ პრინციპებს:</p>
-                    <ul>
-                        <li><strong>ანტიკორუფციული პოლიტიკა</strong>PSF აქტიურად უზრუნველყოფს გამჭვირვალობას Python-ის განვითარების პროცესში. ორგანიზაცია ცდილობს, თავიდან აიცილოს ყველა სახის კორუფციული პრაქტიკა და უზრუნველყოს ფინანსური და ადმინისტრაციული ოპერაციების სრული გამჭვირვალობა. ფონდს მკაცრი მონიტორინგის სისტემა აქვს დანერგილი, რომელიც მიზნად ისახავს რესურსების სწორი განაწილების უზრუნველყოფას და ფინანსური ტრანზაქციების კონტროლს.</li>
-                        <li><strong>უსაფრთხოების პოლიტიკა</strong>Python რეგულარულად განიხილება უსაფრთხოების საკითხებზე, რათა პროგრამისტებმა შეძლონ უსაფრთხო კოდის დაწერა. PSF უზრუნველყოფს, რომ ენის განახლებები და ბიბლიოთეკები შეესაბამებოდნენ თანამედროვე უსაფრთხოების სტანდარტებს. მათ მიერ შექმნილი ინფრასტრუქტურა მაქსიმალურად იცავს მომხმარებელთა მონაცემებს ჰაკერული და სხვა სახის თავდასხმებისგან. </li>
-                        <li><strong>ქცევის კოდექსი</strong> PSF ფოკუსირებულია ინკლუზიურობაზე და დეველოპერების კეთილდღეობაზე. ფონდს აქვს დეტალური ქცევის კოდექსი, რომელიც მოიცავს კომუნიკაციის ეთიკას, დისკრიმინაციის აკრძალვას და ინკლუზიურობის წახალისებას. ორგანიზაცია მუდმივად ახორციელებს ინიციატივებს, რომლებიც ხელს უწყობენ მრავალფეროვნების გაზრდას ტექნოლოგიურ სექტორში.</li>
-                        <li><strong>გლობალური საზოგადოების ჩართულობა</strong>PSF აქტიურად მუშაობს Python-ის პოპულარიზაციაზე გლობალურად. ის ორგანიზებას უკეთებს კონფერენციებს, ჰაკათონებს და სემინარებს, რომლებიც აერთიანებს დეველოპერებს მთელი მსოფლიოდან. ფონდი ფინანსურად ეხმარება ისეთ ქვეყნებსა და რეგიონებს, სადაც ტექნოლოგიური რესურსები შეზღუდულია, რათა Python-ის გამოყენება ხელმისაწვდომი გახდეს.</li>
-                        <li><strong>განათლება და ტრენინგი</strong> ფონდი ხელს უწყობს Python-ის გამოყენების სწავლას სხვადასხვა დონეზე. PSF უფასოდ უზრუნველყოფს საგანმანათლებლო მასალებს, ტრენინგებსა და კურსებს, რომლებიც მიმართულია როგორც დამწყებ, ისე გამოცდილი დეველოპერებისათვის. მათი პროგრამები ასევე მოიცავს ინდუსტრიული სტანდარტების შესაბამისი პროექტების განხორციელებას, რაც ზრდის პროგრამისტების პროფესიონალიზმს.</li>
-                        <li><strong>მონაცემთა კონფიდენციალურობა</strong> PSF-ს აქვს მკაცრი მონაცემთა დაცვის პოლიტიკა, რომელიც იცავს მომხმარებელთა და დეველოპერების პირად ინფორმაციას. ფონდი იყენებს უსაფრთხოების საუკეთესო პრაქტიკებს, რათა უზრუნველყოს, რომ მომხმარებელთა ინფორმაცია არ გახდეს მესამე მხარისთვის ხელმისაწვდომი ან არასწორად გამოყენებული.</li>
-                        <li><strong>თანამშრომლობა და ღია კოდის ინიციატივები</strong> PSF მუდმივად თანამშრომლობს ტექნოლოგიურ ინდუსტრიასთან და ხელს უწყობს ღია კოდის პროექტებს. ორგანიზაცია მხარს უჭერს ისეთ ინიციატივებს, რომლებიც ეხმარებიან ახალბედა დეველოპერებს თავიანთი პროექტების რეალიზებაში და ხელს უწყობენ ინოვაციურ ტექნოლოგიების შექმნას.</li>
-                    </ul>
-                </section>
-
-                <section id="sources" class="py-4">
-
-                    <h2>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                            წყაროები
-                        </button>
-                    </h2>
-                    <div style="min-height: 120px;">
-                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                          <div class="card card-body" style="width: 734px;">
-                            <ul>
-                                <li>Guido van Rossum, "History of Python" <a href="https://python.org">https://python.org</a></li>
-                                <li>Python Software Foundation, "About PSF" <a href="https://psf.org">https://psf.org</a></li>
-                                <li>Google AI Team, "Using Python for Data Processing" <a href="https://google.com">https://google.com</a></li>
-                                <li>Netflix Tech Blog, "How Netflix Uses Python" <a href="https://netflixtechblog.com">https://netflixtechblog.com</a></li>
-                                <li>Microsoft Azure Documentation, "Python Integration" <a href="https://microsoft.com">https://microsoft.com</a></li>
-                                <li>PSF Code of Conduct, "Python Community Standards" <a href="https://python.org/psf/codeofconduct">https://python.org/psf/codeofconduct</a></li>
-                                <li>PSF Security Updates, "Latest Python Releases"<a href="https://python.org/downloads">https://python.org/downloads</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                    <!-- <h2>წყაროები</h2>
-                    <ul>
-                        <li>Guido van Rossum, "History of Python" <a href="https://python.org">https://python.org</a></li>
-                        <li>Python Software Foundation, "About PSF" <a href="https://psf.org">https://psf.org</a></li>
-                        <li>Google AI Team, "Using Python for Data Processing" <a href="https://google.com">https://google.com</a></li>
-                        <li>Netflix Tech Blog, "How Netflix Uses Python" <a href="https://netflixtechblog.com">https://netflixtechblog.com</a></li>
-                        <li>Microsoft Azure Documentation, "Python Integration" <a href="https://microsoft.com">https://microsoft.com</a></li>
-                        <li>PSF Code of Conduct, "Python Community Standards" <a href="https://python.org/psf/codeofconduct">https://python.org/psf/codeofconduct</a></li>
-                        <li>PSF Security Updates, "Latest Python Releases"<a href="https://python.org/downloads">https://python.org/downloads</a></li>
-                    </ul> -->
-                </section>
-            </main>
-        </div>
-
-        <!-- Footer -->
-        <footer class="text-white text-center py-3">
-            <p>© 2024 პროგრამირების ენები და ბიზნესი: Python</p>
-        </footer>
+        <h1 class="h11">პროგრამირების ენები და ბიზნესი: Python
+        </h1>
     </div>
+        <br>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <img class="puss1" src="https://images.datacamp.com/image/upload/v1646560927/shutterstock_1329434768_bf9003ea47.jpg" alt="">
+
+    <br>
+    <div class="p">
+        <h2>Python-ის შექმნის ისტორია</h2>
+        <p>Python-ის პროგრამირების ენა შექმნილია 1991 წელს გიდო ვან როსუმის მიერ. მისი მთავარი მიზანი იყო შეექმნა მარტივი, მკაფიო და ადვილად გასაგები პროგრამირების ენა, რომელიც მომხმარებელს საშუალებას მისცემდა სწრაფად დაეწერა კოდი. </p>
+        <br>
+        <p>Python-ის სახელწოდება მომდინარეობს ცნობილი ბრიტანული კომედიური შოუსგან “Monty Python”.</p>
+        <br>
+        <p>Python-ი შეიქმნა, როგორც ალტერნატივა სხვა ენებისათვის, რომლებიც რთული სინტაქსით გამოირჩეოდნენ. მისი ძირითადი პრინციპებია სიმარტივე, კოდის სისუფთავე და მაღალი ეფექტურობა. </p>
+        <br>
+        <p>ენის პირველი ვერსია იყენებდა მოდულურ არქიტექტურას, რაც შემდგომში მნიშვნელოვან გავლენას ახდენდა ბიზნესისა და ტექნოლოგიების დარგებზე.</p>
+        <br>
+        <h2>Python-ის გავლენა მსოფლიოზე</h2>
+        <img src="https://codecachet.org/static/img/python_growth.png" alt="" class="puss1">
+        <p>Python-ის პოპულარობა სწრაფად გაიზარდა, განსაკუთრებით იმ გარემოში, სადაც მონაცემთა ანალიზი, ხელოვნური ინტელექტი და ვებ-დეველოპმენტი წამყვან როლს ასრულებენ. მისი გავლენა ბიზნესსა და ტექნოლოგიებზე განსაკუთრებით იმაში გამოიხატება, რომ Python გახდა ძირითადი ინსტრუმენტი შემდეგი დარგების განვითარებაში:</p>
+        <ul>
+            <li>მონაცემთა მეცნიერება და ანალიზი: Python-ის ბიბლიოთეკები, როგორიცაა <a style="color: crimson;">Pandas</a>, <a style="color: crimson;">NumPy</a> და <a style="color: crimson;">SciPy</a>, ფართოდ გამოიყენება მონაცემთა ანალიზისთვის.</li>
+            <br>
+            <li>ხელოვნური ინტელექტი და მანქანური სწავლება: TensorFlow, PyTorch და Keras Python-ის ბიბლიოთეკებია, რომლებიც გამოიყენება ნერვული ქსელებისა და AI მოდელების დასაწერად.</li>
+            <br>
+            <li>ვებ-დეველოპმენტი: Django და Flask - Python-ის მძლავრი ვებ-ფრეიმვორქები, რომლებიც გამოიყენება ვებსაიტების და ვებაპლიკაციების შესაქმნელად.</li>
+            <br>
+            <li>ავტომატიზაცია: Python ხშირად გამოიყენება რეპეტიტიული პროცესების ავტომატიზაციისთვის, რაც ზრდის ბიზნესის ეფექტურობას.</li>
+        </ul>
+
+        <br>
+        <h2>Python-ის თანამშრომლობა სხვა კომპანიებთან</h2>
+        <ol>
+            <li>Google (2000-დან დღემდე): Google-მ 2000-იან წლებში Python-ის ინტეგრირება დაიწყო თავის სხვადასხვა სერვისში.</li>
+            <li>Facebook (2005-დან დღემდე): Facebook იყენებს Python-ს მონაცემთა ანალიზისა და ინფრასტრუქტურის მართვის პროცესებში.</li>
+            <li>Netflix (2010-დან დღემდე): Netflix იყენებს Python-ს კონტენტის რეკომენდაციების სისტემებში.</li>
+            <br>
+            <div style="display: flex; margin-right: 40px;">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Emblem.jpg" alt="" class="puss2">
+                <img src="https://cdn.mos.cms.futurecdn.net/6dDoc8GV9fYUPExgLYPqqT-1200-80.jpg" alt="" class="puss2">
+            </div>
+            <br>
+            <li>Microsoft (2015-დან დღემდე): Microsoft Azure-ის პლატფორმაში Python-მა განაპირობა AI და მანქანური სწავლების მოდელების ადვილად დანერგვა.</li>
+            <li>Dropbox (2006-დან დღემდე): Dropbox-მა Python გამოიყენა ფაილების სინქრონიზაციის სისტემის განვითარებისთვის.</li>
+            <li>Instagram (2011-დან დღემდე): Instagram, რომელიც მთლიანად Python-ზეა დაფუძნებული, იყენებს მას პლატფორმის მასშტაბირებისთვის. </li>
+            <li>Spotify (2013-დან დღემდე): Python-ზე დაფუძნებულია რეკომენდაციების სერვისი </li>
+            <li>NASA (1997-დან დღემდე): NASA იყენებს Python-ს მეცნიერების სფეროში კვლევების ოპტიმიზაციისთვის. </li>
+            <li>Reddit (2005-დან დღემდე): Reddit-ის გადასვლა Python-ზე საშუალებას აძლევს პლატფორმის ზრდის დაჩქარებას.</li>
+
+        </ol>
+
+        
+
+        <br>
+        <div style="display: flex;">
+            <img  style="width: 400px; height: 400px;" class="puss1" src="	https://freelogopng.com/images/all_img/1658834272reddit-logo-transparent.png
+            " alt="">
+
+            <img  style="width: 500px; height: 400px;" class="puss1" src="	https://cdn.wallpapersafari.com/45/43/nWKNt3.png
+            " alt="">
+        </div>
+        <br>
+        
+        <h2>Новости</h2>
+        <p>Бывший рестлер и актер Дуэйн Джонсон подарил своему старому другу Бруно Лауэру автомобиль. 35 лет назад Лауэр приютил тогда бездомного 15-летнего Джонсона и начал свою борцовскую карьеру.
+        </p>
+        <div>
+            <img style="width: 99%; border: 1px solid black; border-radius: 20px;" src="https://api.tabula.ge/files/styles/news_thumb_lg/public/photos/2022/12/befunky_4.jpg?itok=idWlyeVf" alt="">
+        </div>
+        <br>
+        <br>
+        <br>
+        
+
+        <ul style="list-style: none;">
+        <li><svg style="display:inline-block;vertical-align:middle" viewBox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Flashlight</li>
+        <li><svg style="display:inline-block;vertical-align:middle" viewBox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Mirror (or a shiny/reflective surface)</li>
+        <li><svg style="display:inline-block;vertical-align:middle" viewBox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>Thick paper or cardboard</li>
+        <li><svg style="display:inline-block;vertical-align:middle" viewBox="0 0 24 24" height="20" width="20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>Pencil (or an object you can poke a hole with) REMEMBER TO ASK A GROWN-UP FOR HELP!</li>
+    </ul>
+    </div>
 </body>
 </html>
