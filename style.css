@@ -61,11 +61,7 @@
     color: rgb(88 199 250 / 100%);
     transition: color 1s;
   }
-  .content-sidebar-wrap:hover:before, 
-  .content-sidebar-wrap:hover:after {
-    animation: none;
-    opacity: 0;
-  }
+
   
   
   .content-sidebar-wrap::before {
@@ -80,7 +76,7 @@
       z-index: -1;
       top: -1%;
       left: -2%;
-      animation: spin 2.5s linear infinite;
+      animation: spin 4s linear infinite;
   }
   
   .content-sidebar-wrap::after {
@@ -100,7 +96,7 @@
       , #5ddcff, #3c67e3 43%, #4e00c2);
       opacity: 1;
     transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
+    animation: spin 6s linear infinite;
   }
   
   @keyframes spin {
@@ -139,7 +135,7 @@
     margin: auto;
     width: 50%;
     border: 1px solid rgb(156, 57, 57);
-    border-radius: 60px;
+    border-radius: 85px;
 }
 .puss2 {
     height: 300px;
